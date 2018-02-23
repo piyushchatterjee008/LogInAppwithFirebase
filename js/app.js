@@ -13,8 +13,8 @@ myapp.config(["$routeProvider" , "$locationProvider" , function($routeProvider ,
     }).
     when("/success" , {
         title:"success",
-        templateUrl : "views/success.html",
-        controller : "successCtr"
+        templateUrl : "views/success.html"
+        // controller : "successCtr"
     }).
     when("/home" , {
         title:"welcome to login application ",
