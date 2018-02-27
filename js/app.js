@@ -4,17 +4,17 @@ myapp.config(["$routeProvider" , "$locationProvider" , function($routeProvider ,
     $routeProvider.when("/login" , {
         title:"login",
         templateUrl : "views/login.html",
-        controller : "resgiterCtr"
+        controller : "registerCtr"
     }).
     when("/register" , {
         title:"register",
         templateUrl : "views/register.html",
-        controller : "resgiterCtr"
+        controller : "registerCtr"
     }).
     when("/success" , {
         title:"success",
-        templateUrl : "views/success.html"
-        // controller : "successCtr"
+        templateUrl : "views/success.html",
+        // controller : "SuccessController"
     }).
     when("/home" , {
         title:"welcome to login application ",
